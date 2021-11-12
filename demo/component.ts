@@ -50,8 +50,8 @@ const colors: any = {
 export class DemoComponent {
   @ViewChild('modalContent', { static: true }) modalContent: TemplateRef<any>;
 
-  view: CalendarView = CalendarView.Week;
-  dataString = 'Nov 10 2021 17:00:00';
+  view: CalendarView = CalendarView.Day;
+  dataString = 'Nov 12 2021 6:00:00';
 
   CalendarView = CalendarView;
 
